@@ -1,1 +1,62 @@
-/* You can add global styles to this file, and also import other style files */
+/* Reset general */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo general */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f7fb;
+  color: #1e293b;
+}
+
+/* Contenedor reutilizable */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Botones */
+.btn-primary {
+  background-color: #3b82f6;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.btn-primary:hover {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  border: 1px solid #cbd5e1;
+  color: #1e293b;
+  padding: 12px 22px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s;
+  font-weight: 500;
+  background-color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #f1f5f9;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.btn-primary,
+.btn-secondary {
+  transition: all 0.3s ease;
+}

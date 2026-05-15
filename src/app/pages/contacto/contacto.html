@@ -1,0 +1,96 @@
+<section class="contact-page">
+
+  <div class="container">
+
+    <div class="contact-header">
+
+      <span>Contacto</span>
+
+      <h1>
+        Hablemos sobre tu próximo proyecto digital
+      </h1>
+
+      <p>
+        Si deseas desarrollar una página web, mejorar tus procesos
+        digitales o recibir soporte técnico, puedes comunicarte con nosotros.
+      </p>
+
+    </div>
+
+    <div class="contact-content">
+
+      <div class="contact-info">
+
+        <div class="info-card">
+
+          <h3>Correo Electrónico</h3>
+
+          <p>
+            contacto@altiplanodigital.com
+          </p>
+
+        </div>
+
+        <div class="info-card">
+
+          <h3>Ubicación</h3>
+
+          <p>
+            Sololá, Guatemala
+          </p>
+
+        </div>
+
+        <div class="info-card">
+
+          <h3>Horario</h3>
+
+          <p>
+            Lunes a Viernes — 8:00 AM a 5:00 PM
+          </p>
+
+        </div>
+
+      </div>
+
+      <form class="contact-form"
+      (submit)="enviarFormulario($event)">
+
+        <input
+        type="text"
+        placeholder="Nombre completo"
+        [(ngModel)]="nombre"
+        name="nombre">
+
+        <input
+        type="email"
+        placeholder="Correo electrónico"
+        [(ngModel)]="correo"
+        name="correo">
+
+        <textarea
+        rows="6"
+        placeholder="Escribe tu mensaje"
+        [(ngModel)]="mensaje"
+        name="mensaje">
+        </textarea>
+
+        <button type="submit">
+          Enviar Mensaje
+        </button>
+
+        @if (mensajeEnviado) {
+
+            <p class="success-message">
+                Mensaje enviado correctamente.
+            </p>
+
+            }
+
+      </form>
+
+    </div>
+
+  </div>
+
+</section>

@@ -1,59 +1,70 @@
-# AltiplanoDigital
+# Altiplano Digital
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.10.
+Proyecto desarrollado con Angular como parte del curso de Programación Web de la Universidad del Valle de Guatemala, Campus Altiplano.
 
-## Development server
+La aplicación consiste en una página web de servicios profesionales ficticios enfocada en soluciones digitales modernas para negocios y emprendedores.
 
-To start a local development server, run:
+## Descripción del Proyecto
 
-```bash
-ng serve
-```
+Altiplano Digital es una página web desarrollada utilizando Angular y conceptos vistos en clase.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+La página incluye un diseño moderno y profesional con cinco secciones principales:
 
-## Code scaffolding
+- Inicio
+- Servicios
+- Nosotros
+- Proyectos
+- Contacto
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Tecnologías Utilizadas
 
-```bash
-ng generate component component-name
-```
+- Angular
+- TypeScript
+- HTML
+- CSS
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Instalación y Ejecución
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+### 1. Clonar el repositorio
 
 ```bash
-ng build
+git clone https://github.com/gersonmoralescosigua/angular14mayo.git
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+### 2. Ingresar a la carpeta del proyecto
 
 ```bash
-ng test
+cd angular14mayo
 ```
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+### 3. Instalar dependencias
 
 ```bash
-ng e2e
+npm install
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+### 4. Ejecutar el proyecto
 
-## Additional Resources
+```bash
+ng serve --open
+```
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+El proyecto se ejecutará en:
+
+http://localhost:4200
+
+## Nota
+
+La carpeta node_modules no fue incluida en el repositorio, ya que las dependencias se instalan automáticamente utilizando:
+
+```bash
+npm install
+```
+
+## Autor
+
+Gerson Morales
+
+Licenciatura en Tecnología de Sistemas Informáticos
+Universidad del Valle de Guatemala  
+Campus Altiplano
